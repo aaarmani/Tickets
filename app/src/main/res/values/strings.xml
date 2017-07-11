@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Tickets</string>
+    <string name="action_favorites">Favorites</string>
+    <string name="title_activity_favorites">Favorites</string>
+</resources>

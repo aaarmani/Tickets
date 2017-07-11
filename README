@@ -1,0 +1,40 @@
+TICKET APP - Anderson Armani
+
+API - http://developer.ticketmaster.com/products-and-docs/apis/discovery-api/v2/
+
+Libraries:
+	//Gson
+	Parser Json used in webserver requests
+
+    //Retrofit
+    HTTP WebServer
+
+    //RxJava2
+    Reactive programm 
+
+    //Picasso
+    Image loader
+
+    //Room
+    Users favorites' Database
+
+
+IMPLEMENTATION:
+	Tickets Activity - load some tickets from API TicketMaster and show each one as a Card;
+		Card click Action - ADD / Remove item from Favorite list (Room Database)
+		Item Menu - Intent for the Favorites Activity
+
+	Favorites Activity - List the user favorites in Descendent order
+		Item Swipe (Left or Right) remove item from Database
+
+IMPROVEMENTS:
+	Implement MVVM
+	Separate context
+	Create a data repository for cache data and persist data locally
+	Request pagination using RxJava
+	Use different design
+	Implement filter on Events Activity
+	ADD Event Detail Activity
+	Implement share event functiunality
+	...
+
